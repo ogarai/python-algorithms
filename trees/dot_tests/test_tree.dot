@@ -1,0 +1,15 @@
+graph test_tree {
+    bgcolor="#8989ff";
+
+    node[style=filled, fillcolor=white, color=gray, fontcolor="#aa0101aa"];
+    edge[color=gray];
+
+    1 -- blank0;
+    1[root=true];
+    blank0[shape=point];
+    1 -- 2;
+    2 -- blank1;
+    blank1[shape=point];
+    2 -- blank2;
+    blank2[shape=point];
+}
